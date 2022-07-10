@@ -1,0 +1,8 @@
+# Configure here all informations for the plugin
+
+randomOre: "1:0"
+
+# Configure here all drops for random ore
+drop:
+  - "57:0"
+  - "12:0"
