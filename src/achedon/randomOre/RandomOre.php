@@ -22,8 +22,8 @@ class RandomOre extends PluginBase{
         @mkdir(self::getDataFolder());
         $this->saveResource("config.yml");
 
-        $this->id = explode(":",(string)self::config()->get("randomOre"))[0];
-        $this->meta = explode(":",(string)self::config()->get("randomOre"))[1] ?? 0;
+        $this->id = (int)explode(":",(string)self::config()->get("randomOre"))[0];
+        $this->meta = (int)explode(":",(string)self::config()->get("randomOre"))[1] ?? 0;
         foreach(self::config()->get("drop") as $value){
             $explode = explode(":",$value);
             $id = $explode[0];
