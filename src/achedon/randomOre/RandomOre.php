@@ -33,6 +33,11 @@ class RandomOre extends PluginBase{
         BlockFactory::getInstance()->register(new ore(),true);
     }
 
+    protected function onLoad(): void
+    {
+        self::setInstance($this);
+    }
+
     private static function config(): Config{
         return new Config(self::getInstance()->getDataFolder()."config.yml",Config::YAML);
     }
