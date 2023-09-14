@@ -1,5 +1,5 @@
 name: RandomOre
 version: 1.0.0
-api: [4.0.0]
+api: [5.0.0]
 main: achedon\randomOre\RandomOre
 author: Achedon12

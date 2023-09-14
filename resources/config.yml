@@ -1,8 +1,13 @@
 # Configure here all informations for the plugin
 
-randomOre: "1:0"
+randomOre: "cobblestone"
 
 # Configure here all drops for random ore
 drop:
-  - "57:0"
-  - "12:0"
+  - "coal"
+  - "iron_ore"
+  - "gold_ore"
+  - "diamond_ore"
+  - "emerald_ore"
+  - "redstone_ore"
+  - "lapis_ore"
